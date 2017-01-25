@@ -27,6 +27,10 @@ See the developer guide and release notes at [https://developers.google.com/acti
 
 For more detailed information on deployment, see the [documentation](https://developers.google.com/actions/samples/).
 
+## Tracking Your Bot's Conversations
+
+Set up a Google Home bot on [Botmetrics](https://www.getbotmetrics.com) and get the API Key and Bot ID for the bot. Set the environment variables `BOTMETRICS_API_KEY` and `BOTMETRICS_BOT_ID` with these values. Add `botmetrics` to your `package.json` and add the `Botmetrics.track` API calls to your code as shown [here](https://github.com/botmetrics/apiai-silly-name-maker-webhook-nodejs/commit/c814ae9e4c2d3bfec96c3c08c23918530a628722).
+
 ## References and How to report bugs
 * Actions on Google documentation: [https://developers.google.com/actions/](https://developers.google.com/actions/).
 * If you find any issues, please open a bug here on GitHub.
